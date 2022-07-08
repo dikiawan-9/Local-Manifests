@@ -6,8 +6,6 @@
           fetch="https://github.com/chikafujiwara45" />
   <remote name="Kneba"
           fetch="https://github.com/Kneba" />
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
   
   <!-- Sync trees -->        
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="twelve" />
