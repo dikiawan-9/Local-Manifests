@@ -5,10 +5,10 @@
           fetch="https://github.com/dikiawan-9" />
   
   <remote name="nexus"
-          fetch="https://github.com/projects-nexus" />  
+          fetch="https://github.com/projects-nexus" /> 
   
   <remote name="cr"
-          fetch="https://github.com/xdroid-oss/xd_manifest" />  
+          fetch="https://github.com/xdroid-oss" />  
   
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="dikiawan-9" revision="12.1" /> 
   
