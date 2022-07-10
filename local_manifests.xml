@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
 
-  <remote name="chikafujiwara45"
-          fetch="https://github.com/chikafujiwara45" />
-  <remote name="Gaurav241"
-          fetch="https://github.com/Gaurav241" />
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
+  <remote name="dikiawan-9"
+          fetch="https://github.com/dikiawan-9" />
   
-  <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="A12" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="chikafujiwara45" revision="PixelOS" />
-        <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="twelve" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="chikafujiwara45" revision="hklknz" />
-        <project path="packages/apps/GoogleCam" name="packages_apps_GoogleCamera" remote="Gaurav241" revision="eleven" />
+  <remote name="nexus"
+          fetch="https://github.com/projects-nexus" />  
   
+  <remote name="cr"
+          fetch="https://github.com/xdroid-oss/xd_manifest" />  
+  
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="dikiawan-9" revision="12.1" /> 
+  
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="dikiawan-9" revision="12.1" />
+  
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" />
+  
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="cr" revision="12.1" />  
+ 
 </manifest>
