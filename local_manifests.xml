@@ -8,7 +8,7 @@
           fetch="https://github.com/projects-nexus" /> 
   
   <remote name="cr"
-          fetch="https://github.com/xdroid-oss" />  
+          fetch="https://github.com/DerpFest-12/manifest" />  
   
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="dikiawan-9" revision="12.1" /> 
   
