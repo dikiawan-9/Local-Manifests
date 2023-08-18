@@ -6,7 +6,7 @@
           fetch="https://github.com/dikiawan" />
   
   <!-- Sync trees -->        
-        <project path="device/xiaomi/camellia" name="device_xiaomi_camellia" remote="dikiawan" revision="thirteen" />
-        <project path="vendor/xiaomi/camellia" name="vendor_xiaomi_camellia" remote="dikiawan" revision="thirteen" />
-        <project path="kernel/xiaomi/camellia" name="device_xiaomi_camellia-kernel" remote="dikiawan" revision="thirteen" />
+        <project path="device/xiaomi/camellia" name="dikiawan/device_xiaomi_camellia" remote="dikiawan" revision="thirteen" />
+        <project path="vendor/xiaomi/camellia" name="dikiawan/vendor_xiaomi_camellia" remote="dikiawan" revision="thirteen" />
+        <project path="kernel/xiaomi/camellia" name="dikiawan/device_xiaomi_camellia-kernel" remote="dikiawan" revision="thirteen" />
 </manifest>
