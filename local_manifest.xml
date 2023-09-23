@@ -2,11 +2,11 @@
 
 <manifest>
 
-  <remote name="dikiawan"
+  <remote name="diksy9"
           fetch="https://github.com/dikiawan" />
   
   <!-- Sync trees -->        
-        <project path="device/xiaomi/camellia" name="dikiawan/device_xiaomi_camellia" remote="dikiawan" revision="thirteen" />
-        <project path="vendor/xiaomi/camellia" name="dikiawan/vendor_xiaomi_camellia" remote="dikiawan" revision="thirteen" />
-        <project path="kernel/xiaomi/camellia" name="dikiawan/device_xiaomi_camellia-kernel" remote="dikiawan" revision="thirteen" />
+        <project path="device/xiaomi/camellia" name="dikiawan/device_xiaomi_camellia" remote="diksy9" revision="thirteen" />
+        <project path="vendor/xiaomi/camellia" name="dikiawan/vendor_xiaomi_camellia" remote="diksy9" revision="thirteen" />
+        <project path="kernel/xiaomi/camellia" name="dikiawan/device_xiaomi_camellia-kernel" remote="diksy9" revision="thirteen" />
 </manifest>
