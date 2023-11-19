@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<manifest>
-
-  <remote name="diksy9"
-          fetch="https://github.com/dikiawan" />
+<manifest>  
+ 
+    <remote name="diksyfck" 
+      fetch="https://github.com/diksyfck" />
   
-  <!-- Sync trees -->        
-        <project path="device/xiaomi/camellia" name="diksy9/device_xiaomi_camellia" remote="diksy9" revision="thirteen" />
-        <project path="vendor/xiaomi/camellia" name="diksy9/vendor_xiaomi_camellia" remote="diksy9" revision="thirteen" />
-        <project path="kernel/xiaomi/camellia" name="diksy9/device_xiaomi_camellia-kernel" remote="diksy9" revision="thirteen" />
+<!-- device tree -->
+    <project path="device/xiaomi/lavender" name="device_lavender" remote="diksyfck" revision="SupExt" clone-depth="1" />
+<!-- vendor tree -->
+    <project path="vendor/xiaomi/lavender" name="vendor_lavender" remote="diksyfck" revision="thirteen" clone-depth="1" />
+<!-- kernel -->
+    <project path="kernel/xiaomi/lavender" name="kernel_13_4.4" remote="diksyfck" revision="KSU" clone-depth="1" />
+
 </manifest>
