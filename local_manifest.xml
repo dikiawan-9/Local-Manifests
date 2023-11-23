@@ -3,6 +3,15 @@
  
     <remote name="diksy9" 
       fetch="https://github.com/diksy9" />
+
+  <remote name="ahmedhridoy371"
+          fetch="https://github.com/ahmedhridoy371" />       
+     
+      <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />
+
+      <remote name="clang"
+          fetch="https://gitlab.com/Amritorock" />
   
 <!-- device tree -->
     <project path="device/xiaomi/lavender" name="device_lavender" remote="diksy9" revision="SupExt" clone-depth="1" />
@@ -10,5 +19,14 @@
     <project path="vendor/xiaomi/lavender" name="vendor_lavender" remote="diksy9" revision="thirteen" clone-depth="1" />
 <!-- kernel -->
     <project path="kernel/xiaomi/lavender" name="kernel_13_4.4" remote="diksy9" revision="KSU" clone-depth="1" />
+
+
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_media" />
+ 
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
 
 </manifest>
