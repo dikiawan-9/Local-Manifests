@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>  
  
-    <remote name="diksy9" 
-      fetch="https://github.com/diksy9" />
+    <remote name="senoved" 
+      fetch="https://github.com/senoved" />
 
-  <remote name="ahmedhridoy371"
-          fetch="https://github.com/ahmedhridoy371" />       
-     
-      <remote name="ArrowOS"
-          fetch="https://github.com/ArrowOS" />
+  <remote name="dm700"
+          fetch="https://github.com/dm700-devs" />     
 
-      <remote name="clang"
-          fetch="https://gitlab.com/Amritorock" />
-  
+    <remote name="diksy9"
+          fetch="https://github.com/diksy9" />
+
+
+
 <!-- device tree -->
-    <project path="device/xiaomi/lavender" name="device_lavender" remote="diksy9" revision="SupExt" clone-depth="1" />
+    <project path="device/xiaomi/camellia" name="device-xiaomi-camellia" remote="senoved" revision="thirteen" clone-depth="1" />
 <!-- vendor tree -->
-    <project path="vendor/xiaomi/lavender" name="vendor_lavender" remote="diksy9" revision="thirteen" clone-depth="1" />
+    <project path="vendor/xiaomi/camellia" name="vendor-xiaomi-camellia" remote="senoved" revision="thirteen" clone-depth="1" />
 <!-- kernel -->
-    <project path="kernel/xiaomi/lavender" name="kernel_13_4.4" remote="diksy9" revision="KSU" clone-depth="1" />
-
-
-  <remove-project name="android_hardware_qcom_display" />
-  <remove-project name="android_hardware_qcom_audio" />
-  <remove-project name="android_hardware_qcom_media" />
- 
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
-
-</manifest>
+    <project path="device/xiaomi/camellia-kernel" name="device_xiaomi_camellia-kernel" remote="mt700" revision="thirteen" clone-depth="1" />
+<!-- device mediatek -->
+<project path="hardware/mediatek" name="hardware_mediatek" remote="diksy9" revision="13.0" clone-depth="1" />
+<!-- device mediatek sepolicy_vndr -->
+<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="diksy9" revision="13.0" clone-depth="1" />
